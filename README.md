@@ -17,3 +17,5 @@ Requires OAuth Credentials from Google Cloud Project (Not included in github). N
 Also, need to run the following commands:
 
 "pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib"
+
+It's worth noting that this GitHub is merely a proof of concept for most people and will not work as intended without modifications. This worked for me but I didn't bother to make it work for a general use case given that the core program is already catered to search for VERY specific criteria in a weekly schedule email. As such, if the email must be automated, and constructed in a very specific way for this to work, so theres no point solving the other commutability issues when this main flaw is something that can't be resolved. Also, users would have to create their own credentials or be authorized manually to my Google Cloud Console project in developer mode, because otherwise I would have to pay money. This is a tedious process, and as such I decided I did not need to make the program work for anybody else but me.
