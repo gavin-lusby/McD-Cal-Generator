@@ -12,7 +12,7 @@ time. This way the user could chose to add the calendar events to any calendar s
 This project gave me good experience working with Google Cloud Console and accessing Googles Gmail and Google Calendar APIs.
 
 
-Requires OAuth Credentials (Not included in github)
+Requires OAuth Credentials from Google Cloud Project (Not included in github). Named "gcalcredentials.json" and "gmailcredentials.json" respectively
 
 Also, need to run the following commands:
 
