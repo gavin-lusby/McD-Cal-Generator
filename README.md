@@ -10,3 +10,10 @@ If I were writing this again, I would have it create ICS files for the events ra
 time. This way the user could chose to add the calendar events to any calendar service. 
 
 This project gave me good experience working with Google Cloud Console and accessing Googles Gmail and Google Calendar APIs.
+
+
+Requires OAuth Credentials (Not included in github)
+
+Also, need to run the following commands:
+
+"pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib"
